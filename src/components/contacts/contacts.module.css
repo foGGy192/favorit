@@ -1,0 +1,78 @@
+.map{
+    margin-top: 127px;
+}
+.contactsInfo{
+    margin-top: 120px;
+}
+.contactsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.textBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 410px;
+}
+.textBlockInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 599px;
+}
+.title{
+    color: #282829;
+    font-family: Cakra;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 95.5%; /* 38.2px */
+}
+.text{
+    color: rgba(40, 40, 41, 0.60);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 95.5%; /* 19.1px */
+}
+.cards{
+    gap: 10px 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.card{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.cardTitle{
+    color: rgba(40, 40, 41, 0.60);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 95.5%; /* 38.2px */
+}
+.cardText{
+    color: rgba(40, 40, 41, 0.60);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 95.5%; /* 22.92px */
+}
+.requisites{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: rgba(40, 40, 41, 0.60);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 95.5%; /* 30.56px */
+}

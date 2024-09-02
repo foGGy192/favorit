@@ -1,0 +1,85 @@
+.aboutSection{
+    margin-top: 113px;
+}
+.aboutWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.title{
+    color: #282829;
+    font-family: Cakra;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 34px 0;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about img{
+    width: 873px;
+    height: 599px;
+}
+.text{
+    color: rgba(40, 40, 41, 0.60);
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.boldText{
+    color: #282829;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 600;
+}
+.aboutCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding-bottom: 60px;
+}
+.card img{
+    height: 203px;
+    border-radius: 20px 20px 0px 0px;
+}
+.textBlock{
+    width: 443px;
+}
+.cardTitle{
+    color: #282829;
+    font-family: Cakra;
+    font-size: 30px;
+    font-weight: 400;
+}
+.cardText{
+    color: rgba(40, 40, 41, 0.70);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+}
+.benefits{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.benefit{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 23px;
+    padding: 50px 40px 60px 40px;
+}
+.benefit img{
+    padding: 14px;
+    border-radius: 30px;
+    background-color: #CCF437;
+}
